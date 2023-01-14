@@ -7,3 +7,7 @@
 `<h4>This is heading 4</h4>`  
 `<h5>This is heading 5</h5>`  
 `<h6>This is heading 6</h6>`  
+
+# HTML Paragrafları
+`<p>This is a paragraph.</p>  
+<p>This is another paragraph.</p>`
