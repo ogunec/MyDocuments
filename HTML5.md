@@ -66,5 +66,23 @@ Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name=
 
 # HTML Style Niteliği
 HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gibi stiller eklemek için kullanılır.  
-`<tagname style="property:value;">` Burada property bir CSS özelliği ve value bir CSS değeridir.
+`<tagname style="property:value;">` Burada property bir CSS özelliği ve value bir CSS değeridir.  
+
+## Bazı Style Özellikleri
+* Backgroun Color: CSS `background-color` özelliği, bir HTML öğesi için arka plan rengini tanımlar.  
+`<h1 style="background-color:powderblue;">This is a heading</h1>`  
+
+* Text Color: CSS `color` özelliği, bir HTML öğesi için metin rengini tanımlar.  
+`<p style="color:red;">This is a paragraph.</p>`  
+
+* Fonts: CSS `font-family` özelliği, bir HTML öğesi için kullanılacak yazı tipini tanımlar.  
+`<h1 style="font-family:verdana;">This is a heading</h1>`  
+
+* Text Size: CSS `font-size` özelliği, bir HTML öğesinin metin boyutunu tanımlar.  
+`<p style="font-size:160%;">This is a paragraph.</p>`  
+
+* Text Alignment: CSS `text-align` özelliği, bir HTML öğesi için yatay metin hizalamasını tanımlar.  
+`<p style="text-align:center;">Centered paragraph.</p>`  
+
+
 
