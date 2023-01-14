@@ -10,5 +10,6 @@
 
 # HTML Paragrafları
 HTML paragrafları `<p>` etiketi ile tanımlanır  
+
 `<p>This is a paragraph.</p>`  
 `<p>This is another paragraph.</p>`  
