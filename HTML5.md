@@ -38,8 +38,21 @@ Kaynak dosya `src`, alternatif metin `alt`, genişlik `width` ve yükseklik `hei
 * Nitelikler her zaman başlangıç ​​etiketinde belirtilir
 * Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name="value"  
 
-ÖRNEK:  
-<a> etiketi bir link tanımlar. href niteliği ise bağlantının gittiği sayfanın URL'sini belirtir.  
+* `<a>` etiketi bir link tanımlar. `href` niteliği ise bağlantının gittiği sayfanın URL'sini belirtir.  
+`<a href="https://www.w3schools.com">Visit W3Schools</a>`  
 
-`<a href="https://www.w3schools.com">Visit W3Schools</a>`
+* `<img>` etiketi, bir resim dosyasını HTML sayfasına gömmek için kullanılır. `src` niteliği ise resim dosyasının yolunu belirtir.  
+`<img src="img_girl.jpg">`  
+
+* `alt` niteliği, resim herhangi bir nedenle gösterilemiyorsa, resim için alternatif bir metin belirtir.  
+`<img src="img_girl.jpg" alt="Girl with a jacket">`  
+
+* `<img>` etiketi, görüntünün genişliğini ve yüksekliğini (piksel cinsinden) belirten `width` ve `height` niteliklerini de içermelidir.  
+`<img src="img_girl.jpg" width="500" height="600">`  
+
+* `style` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gibi stiller eklemek için kullanılır.  
+`<p style="color:red;">This is a red paragraph.</p>`
+
+* Web sayfasının dilini bildirmek için her zaman `<html>` etiketinin içine `lang` niteliğini eklemelisiniz. Bu, arama motorlarına ve tarayıcılara yardımcı olmak içindir.  
+`<html lang="en">`
 
