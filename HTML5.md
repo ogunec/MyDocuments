@@ -64,4 +64,7 @@ Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name=
 * `title` niteliği, bir öğe hakkında bilgileri tanımlar. `title` özniteliğinin değeri, öğenin üzerine fareyi getirdiğinizde görüntülenecektir.  
 `<p title="I'm a tooltip">This is a paragraph.</p>`  
 
-* 
+# HTML Style Niteliği
+HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gibi stiller eklemek için kullanılır.  
+`<tagname style="property:value;">` Burada property bir CSS özelliği ve value bir CSS değeridir.
+
