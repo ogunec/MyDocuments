@@ -9,5 +9,6 @@
 `<h6>This is heading 6</h6>`  
 
 # HTML Paragrafları
-`<p>This is a paragraph.</p>  
-<p>This is another paragraph.</p>`
+HTML paragrafları `<p>` etiketi ile tanımlanır  
+`<p>This is a paragraph.</p>`  
+`<p>This is another paragraph.</p>`  
