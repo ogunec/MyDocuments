@@ -1,5 +1,5 @@
 # HTML Başlıkları
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
@@ -11,4 +11,4 @@
 <h6>This is heading 6</h6>
 
 </body>
-</html>`
+</html>
