@@ -33,11 +33,12 @@ Kaynak dosya `src`, alternatif metin `alt`, genişlik `width` ve yükseklik `hei
 `<p>This is a <br> paragraph with a line break.</p>`  
 
 # HTML Nitelikleri
-* Tüm HTML öğelerinin nitelikleri olabilir
-* Nitelikler, öğeler hakkında ek bilgi sağlar
-* Nitelikler her zaman başlangıç ​​etiketinde belirtilir
-* Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name="value"  
+Tüm HTML öğelerinin nitelikleri olabilir  
+Nitelikler, öğeler hakkında ek bilgi sağlar  
+Nitelikler her zaman başlangıç ​​etiketinde belirtilir  
+Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name="value"    
 
+## Bazı HTML Nitelikleri
 * `<a>` etiketi bir link tanımlar. `href` niteliği ise bağlantının gittiği sayfanın URL'sini belirtir.  
 `<a href="https://www.w3schools.com">Visit W3Schools</a>`  
 
