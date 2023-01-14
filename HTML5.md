@@ -14,6 +14,9 @@ HTML paragrafları `<p>` etiketi ile tanımlanır
 `<p>This is a paragraph.</p>`  
 `<p>This is another paragraph.</p>`  
 
+`<pre>` etiketi önceden biçimlendirilmiş metin tanımlar. Metnin satır sonları ve boşlukları korunur.  
+
+
 # HTML Bağlantıları
 HTML bağlantıları `<a>` etiketi ile tanımlanır.  
 
@@ -28,9 +31,10 @@ Kaynak dosya `src`, alternatif metin `alt`, genişlik `width` ve yükseklik `hei
 `<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">`  
 
 # Boş HTML Öğeleri
-İçeriği olmayan HTML öğelerine boş öğeler denir. `<br>` etiketi bir satır sonu tanımlar ve kapanış etiketi olmayan boş bir öğedir.  
-
+* İçeriği olmayan HTML öğelerine boş öğeler denir. `<br>` etiketi bir satır sonu tanımlar ve kapanış etiketi olmayan boş bir öğedir.  
 `<p>This is a <br> paragraph with a line break.</p>`  
+
+* `<hr>` etiketi HTML5 ile görsel açıdan yatay bir çizgi çekerek belgede bir konu sonu tanımlar.  
 
 # HTML Nitelikleri
 Tüm HTML öğelerinin nitelikleri olabilir  
@@ -55,5 +59,9 @@ Nitelikler genellikle aşağıdaki gibi ad/değer çiftleri halinde gelir: name=
 `<p style="color:red;">This is a red paragraph.</p>`
 
 * Web sayfasının dilini bildirmek için her zaman `<html>` etiketinin içine `lang` niteliğini eklemelisiniz. Bu, arama motorlarına ve tarayıcılara yardımcı olmak içindir.  
-`<html lang="en">`
+`<html lang="en">`  
 
+* `title` niteliği, bir öğe hakkında bilgileri tanımlar. `title` özniteliğinin değeri, öğenin üzerine fareyi getirdiğinizde görüntülenecektir.  
+`<p title="I'm a tooltip">This is a paragraph.</p>`  
+
+* 
