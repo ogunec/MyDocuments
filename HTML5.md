@@ -96,5 +96,15 @@ HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gib
 * `<sub>` öğesi, alt simge metnini tanımlar. Alt simge metni, normal satırın yarım karakter altında görünür ve bazen daha küçük bir yazı tipiyle işlenir. Alt simge metni, H2O gibi kimyasal formüller için kullanılabilir.  
 * `<sup>` öğesi, üst simge metnini tanımlar. Üst simge metni, normal satırın yarım karakter üzerinde görünür ve bazen daha küçük bir yazı tipiyle işlenir.  
 
+# HTML Alıntılar
+* `<blockquote>` öğesi, başka bir kaynaktan alıntılanan bir bölümü tanımlar. Tarayıcılar genellikle `<blockquote>` öğelerini girintiler.
+* `<q>` etiketi kısa bir alıntıyı tanımlar. Tarayıcılar normalde alıntının etrafına tırnak işaretleri ekler.  
+* `<abbr>` etiketi, "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM" gibi kısaltmaları tanımlar.  
+İpucu: Fareyi öğenin üzerine getirdiğinizde kısaltmanın açıklamasını göstermek için `title` özniteliğini kullanın.  
+`<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>`  
+* `<address>` etiketi, bir belgenin veya makalenin yazarı/sahibi için iletişim bilgilerini tanımlar.  
+* `<cite>` etiketi, yaratıcı bir çalışmanın başlığını tanımlar (ör. bir kitap, bir şiir, bir şarkı, bir film, bir tablo, bir heykel vb.).  
+* `<bdo>` etiketi, geçerli metin yönünü geçersiz kılmak için kullanılır.  
+
 
 
