@@ -84,5 +84,17 @@ HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gib
 * Text Alignment: CSS `text-align` özelliği, bir HTML öğesi için yatay metin hizalamasını tanımlar.  
 `<p style="text-align:center;">Centered paragraph.</p>`  
 
+# HTML Metin Biçimlendirme
+* `<b>` öğesi, kalın metni herhangi bir ekstra önem olmaksızın tanımlar.  
+* `<strong>` öğesi, metni büyük önemle tanımlar. İçerideki içerik genellikle kalın olarak görüntülenir.  
+* `<i>` öğesi, metnin bir bölümünü alternatif bir ses veya ruh halinde tanımlar. İçerideki içerik tipik olarak italik olarak görüntülenir.  
+* `<em>` öğesi, vurgulanan metni tanımlar. İçerideki içerik tipik olarak italik olarak görüntülenir.  
+* `<mark>` öğesi, işaretlenmesi veya vurgulanması gereken metni tanımlar.  
+* `<small>` öğesi daha küçük metni tanımlar.  
+* `<del>` öğesi, bir belgeden silinmiş olan metni tanımlar. Tarayıcılar genellikle silinen metin boyunca bir satır çizer.  
+* `<ins>` öğesi, bir belgeye eklenmiş bir metni tanımlar. Tarayıcılar genellikle eklenen metnin altını çizer.  
+* `<sub>` öğesi, alt simge metnini tanımlar. Alt simge metni, normal satırın yarım karakter altında görünür ve bazen daha küçük bir yazı tipiyle işlenir. Alt simge metni, H2O gibi kimyasal formüller için kullanılabilir.  
+* `<sup>` öğesi, üst simge metnini tanımlar. Üst simge metni, normal satırın yarım karakter üzerinde görünür ve bazen daha küçük bir yazı tipiyle işlenir.  
+
 
 
