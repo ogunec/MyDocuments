@@ -105,6 +105,7 @@ HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gib
 * `<address>` etiketi, bir belgenin veya makalenin yazarı/sahibi için iletişim bilgilerini tanımlar.  
 * `<cite>` etiketi, yaratıcı bir çalışmanın başlığını tanımlar (ör. bir kitap, bir şiir, bir şarkı, bir film, bir tablo, bir heykel vb.).  
 * `<bdo>` etiketi, geçerli metin yönünü geçersiz kılmak için kullanılır.  
+`<bdo dir="rtl">This text will be written from right to left</bdo>`
 
 
 
