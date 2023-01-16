@@ -160,7 +160,8 @@ Aşağıdaki iki `<div>` öğesinin arka plan rengi RGBA ve HSLA değerleriyle a
 
 # HTML Tablolar
 HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde düzenlemesine olanak tanır.  
-`<table>
+``
+<table>
   <tr>
     <th>Company</th>
     <th>Contact</th>
@@ -176,4 +177,5 @@ HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde
     <td>Francisco Chang</td>
     <td>Mexico</td>
   </tr>
-</table>`
+</table>
+``
