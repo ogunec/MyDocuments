@@ -107,5 +107,54 @@ HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gib
 * `<bdo>` etiketi, geçerli metin yönünü geçersiz kılmak için kullanılır.  
 `<bdo dir="rtl">This text will be written from right to left</bdo>`
 
+# HTML Yorumları
+HTML yorumları tarayıcıda görüntülenmez ancak HTML kaynak kodunuzu belgelemenize yardımcı olabilir.  
+`<!-- Write your comments here -->`  
 
+HTML kodumuza yorum satırı eklemek ve geçici süreyle görünmesini istemediğimiz içerikleri saklamak amacıyla kullanabiliriz.  
+`<!-- <p>This is another paragraph </p> -->`  
+`<p>This <!-- great text --> is a paragraph.</p>`  
+
+# HTML Renkler
+HTML renkleri, önceden tanımlanmış renk adlarıyla veya RGB, HEX, HSL, RGBA veya HSLA değerleriyle belirtilir.  
+* Text Color: Metnin rengini ayarlayabilirsiniz.  
+`<h1 style="color:Tomato;">Hello World</h1>`  
+* Border Color: Kenarlıkların rengini ayarlayabilirsiniz.  
+`<h1 style="border:2px solid Tomato;">Hello World</h1>`  
+* Background Color: Arkaplanın rengini ayarlayabilirsiniz.  
+`<h1 style="background-color:Tomato;">Hello World</h1>`  
+
+## Renk Değerleri
+HTML'de renkler, RGB değerleri, HEX değerleri, HSL değerleri, RGBA değerleri ve HSLA değerleri kullanılarak da belirtilebilir.  
+Aşağıdaki üç `<div>` öğesinin arka plan rengi RGB, HEX ve HSL değerleriyle ayarlanır.  
+`<h1 style="background-color:rgb(255, 99, 71);">...</h1>`  
+`<h1 style="background-color:#ff6347;">...</h1>`  
+`<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>`  
+Aşağıdaki iki `<div>` öğesinin arka plan rengi RGBA ve HSLA değerleriyle ayarlanmıştır. 
+`<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>`  
+`<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>`
+
+### RGB Renk Değerleri
+* Bir RGB renk değeri, KIRMIZI, YEŞİL ve MAVİ ışık kaynaklarını temsil eder.  
+* Her parametre (kırmızı, yeşil ve mavi), rengin yoğunluğunu 0 ile 255 arasında bir değerle tanımlar.  
+* Örneğin, rgb(255, 0, 0) kırmızı olarak görüntülenir çünkü kırmızı en yüksek değerine (255) ve diğer ikisi (yeşil ve mavi) 0'a ayarlanmıştır.  
+* Siyahı görüntülemek için tüm renk parametrelerini şu şekilde 0 olarak ayarlayın: rgb(0, 0, 0).  
+* Beyazı görüntülemek için tüm renk parametrelerini 255 olarak ayarlayın, örneğin: rgb(255, 255, 255).  
+* Grinin tonları genellikle üç parametrenin tümü için eşit değerler kullanılarak tanımlanır, örneğin: rgb(180, 180, 180).  
+* rgba(red, green, blue, alpha) renk değerleri, bir rengin opaklığını belirten bir Alfa kanalıyla RGB renk değerlerinin bir uzantısıdır. alpha parametresi 0.0 (tamamen şeffaf) ile 1.0 (hiç şeffaf değil) arasında bir sayıdır.  
+
+### HEX Renk Değerleri
+* #rrggbb rr (kırmızı), gg (yeşil) ve bb (mavi), 00 ile ff arasındaki onaltılık değerlerdir (ondalık 0-255 ile aynı).  
+* #ff0000 kırmızı olarak görüntülenir çünkü kırmızı en yüksek değerine (ff) ve diğer ikisi (yeşil ve mavi) 00'a ayarlanmıştır.  
+* Siyahı görüntülemek için tüm renk parametrelerini 00 olarak ayarlayın, örneğin: #000000.  
+* Beyazı görüntülemek için tüm renk parametrelerini ff olarak ayarlayın, örneğin: #ffffff.  
+* Grinin tonları genellikle üç parametrenin tümü için eşit değerler kullanılarak tanımlanır. Ör: #f8f8f8.  
+
+### HSL Renk Değerleri
+* HTML'de bir renk, şu şekilde ton, doygunluk ve açıklık (HSL) kullanılarak belirtilebilir: hsl(ton, doygunluk, açıklık)   
+* Ton, renk tekerleğinde 0 ile 360 ​​arasındaki bir derecedir. 0 kırmızı, 120 yeşil ve 240 mavidir.  
+* Doygunluk bir yüzde değeridir. %0, grinin bir tonu ve %100 tam renk anlamına gelir.  
+* Açıklık de bir yüzde değeridir. %0 siyah ve %100 beyazdır.  
+* Gri tonları genellikle ton ve doygunluğu 0'a ayarlayarak ve daha koyu/açık gölgeler elde etmek için açıklığı %0'dan %100'e ayarlayarak tanımlanır. hsl(0, 0%, 70%)  
+* hsla(hue, saturation, lightness, alpha) renk değerleri, bir rengin opaklığını belirten bir Alfa kanalıyla HSL renk değerlerinin bir uzantısıdır.  
 
