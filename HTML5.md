@@ -107,7 +107,7 @@ HTML `atyle` niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gib
 * `<bdo>` etiketi, geçerli metin yönünü geçersiz kılmak için kullanılır.  
 `<bdo dir="rtl">This text will be written from right to left</bdo>`
 
-# HTML Yorumları
+# HTML Yorum Satırı
 HTML yorumları tarayıcıda görüntülenmez ancak HTML kaynak kodunuzu belgelemenize yardımcı olabilir.  
 `<!-- Write your comments here -->`  
 
@@ -158,3 +158,22 @@ Aşağıdaki iki `<div>` öğesinin arka plan rengi RGBA ve HSLA değerleriyle a
 * Gri tonları genellikle ton ve doygunluğu 0'a ayarlayarak ve daha koyu/açık gölgeler elde etmek için açıklığı %0'dan %100'e ayarlayarak tanımlanır. hsl(0, 0%, 70%)  
 * hsla(hue, saturation, lightness, alpha) renk değerleri, bir rengin opaklığını belirten bir Alfa kanalıyla HSL renk değerlerinin bir uzantısıdır.  
 
+# HTML Tablolar
+HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde düzenlemesine olanak tanır.  
+`<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>`
