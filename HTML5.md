@@ -200,14 +200,31 @@ HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde
 # HTML Listeleri
 HTML listeleri, web geliştiricilerinin bir dizi ilgili öğeyi listelerde gruplandırmasına olanak tanır.  
 
-## Sıralı Olmayan HTML Listeleri
+## Sıralı Olmayan HTML Listesi
 Sırasız bir liste `<ul>` etiketi ile başlar. Her liste öğesi `<li>` etiketi ile başlar.
 ```
-<h2>An unordered HTML list</h2>
-
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>  
+```
+## Sıralı HTML Listesi
+Sıralı bir liste `<ol>` etiketi ile başlar. Her liste öğesi `<li>` etiketi ile başlar.  
+```
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+```
+## HTML Açıklama Listesi
+Açıklama listesi, her terimin açıklamasını içeren bir terimler listesidir. `<dl>` etiketi açıklama listesini tanımlar, `<dt>` etiketi tanımlanacak terimi belirtir ve `<dd>` etiketi her terimi açıklar.  
+```
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
 ```
