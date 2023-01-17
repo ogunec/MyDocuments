@@ -195,4 +195,19 @@ HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde
     <td>14</td>
     <td>10</td>
   </tr>
-</table>
+</table>  
+
+# HTML Listeleri
+HTML listeleri, web geliştiricilerinin bir dizi ilgili öğeyi listelerde gruplandırmasına olanak tanır.  
+
+## Sıralı Olmayan HTML Listeleri
+Sırasız bir liste `<ul>` etiketi ile başlar. Her liste öğesi `<li>` etiketi ile başlar.
+```
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+```
