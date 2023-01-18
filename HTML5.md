@@ -17,13 +17,38 @@ HTML paragrafları `<p>` etiketi ile tanımlanır
 `<pre>` etiketi önceden biçimlendirilmiş metin tanımlar. Metnin satır sonları ve boşlukları korunur.  
 
 
-# HTML Bağlantıları
-HTML bağlantıları `<a>` etiketi ile tanımlanır.  
+# HTML Link
+* HTML bağlantıları `<a>` etiketi ile tanımlanır.  
 
 `<a href="https://www.google.com.com">Google</a>`  
 
-Bağlantının hedefi, href niteliği ile belirtilir. Nitelikler, HTML öğeleri hakkında ek bilgi sağlamak için kullanılır.  
+* Bağlantının hedefi, `href` niteliği ile belirtilir.    
+* Oluşturulan linkin nerede açılacağını `target` niteliği belirtir. `target` özniteliği aşağıdaki değerlerden birine sahip olabilir.  
+`_self` - Varsayılan. Belgeyi tıklandığı pencerede/sekmede açar.  
+`_blank` - Belgeyi yeni bir pencerede veya sekmede açar.  
+`_parent` - Belgeyi üst çerçevede açar.  
+`_top` - Belgeyi pencerenin tam gövdesinde açar.  
 
+`<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>`  
+## Bir Görüntüyü Bağlantı Olarak Kullan
+Bir görseli bağlantı olarak kullanmak için <img> etiketini <a> etiketinin içine koymanız yeterlidir.  
+```
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+```
+## Bir E-posta Adresine Bağlantı
+Kullanıcının e-posta programını açan bir bağlantı oluşturmak için `href` özniteliği içinde `mailto:` öğesini kullanın.  
+`<a href="mailto:someone@example.com">Send email</a>`  
+  
+## Butona Bağlantı
+Bir HTML düğmesini bağlantı olarak kullanmak için bazı JavaScript kodları eklemeniz gerekir.  
+`<button onclick="document.location='default.asp'">HTML Tutorial</button>`  
+## Link Başlığı
+`title` niteliği, bir öğe hakkında ek bilgi belirtir. Bilgi, çoğunlukla fare öğenin üzerine geldiğinde bir araç ipucu metni olarak gösterilir.
+`<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>`  
+
+  
 # HTML Resimleri
 HTML görselleri `<img>` etiketi ile tanımlanır.  
 Kaynak dosya `src`, alternatif metin `alt`, genişlik `width` ve yükseklik `height`, nitelikleri ile sağlanır.  
