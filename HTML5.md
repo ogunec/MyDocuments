@@ -26,8 +26,6 @@ HTML paragrafları `<p>` etiketi ile tanımlanır
 * Oluşturulan linkin nerede açılacağını `target` niteliği belirtir. `target` özniteliği aşağıdaki değerlerden birine sahip olabilir.  
 `_self` - Varsayılan. Belgeyi tıklandığı pencerede/sekmede açar.  
 `_blank` - Belgeyi yeni bir pencerede veya sekmede açar.  
-`_parent` - Belgeyi üst çerçevede açar.  
-`_top` - Belgeyi pencerenin tam gövdesinde açar.  
 
 `<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>`  
 ## Bir Görüntüyü Bağlantı Olarak Kullan
