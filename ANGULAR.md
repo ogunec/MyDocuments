@@ -34,8 +34,9 @@
 | Modules              | Services             | Guards               |
 | Dependency Injection | Pipes                |                      |
 
-|      *        |      *     |
-| -----------  | ----------- |
-| Components   | Title       |
-| Directives   | Text        |
-| Modules      |
+| Components   | Directives  |
+| Modules      | Data Binding|
+| Metadatas    | Decorators  |
+| Guards       | Services    |
+| Templates    | Pipes       |
+| Dependency Injection|
