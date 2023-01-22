@@ -33,3 +33,8 @@
 | Directives           | Decorators           | Metadatas            |
 | Modules              | Services             | Guards               |
 | Dependency Injection | Pipes                |                      |
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
