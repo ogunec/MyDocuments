@@ -40,3 +40,4 @@
 | Guards       | Services    |
 | Templates    | Pipes       |
 | Dependency Injection|
+| -----------  | ----------- |
