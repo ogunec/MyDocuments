@@ -34,7 +34,7 @@
 | Modules              | Services             | Guards               |
 | Dependency Injection | Pipes                |                      |
 
-| Syntax      | Description |
+| Angular Mimarisinin Temel Yapıtaşları |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
