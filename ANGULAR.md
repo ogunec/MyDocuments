@@ -27,9 +27,9 @@
 * __app.module.ts:__ Uygulamanın ana/root modülü.
 
 # Angular Temel Yapıtaşları
-|                   Angular Mimarisinin Temel Yapıtaşları                  |
-| ---------------------- | ---------------------- | ---------------------- |
-| * Components           | * Data Binding         | * Templates            |
-| * Directives           | * Decorators           | * Metadatas            |
-| * Modules              | * Services             | * Guards               |
-| * Dependency Injection | * Pipes                |                        |
+|                   Angular Mimarisinin Temel Yapıtaşları            |
+| -------------------- | -------------------- | -------------------- |
+| Components           | Data Binding         | Templates            |
+| Directives           | Decorators           | Metadatas            |
+| Modules              | Services             | Guards               |
+| Dependency Injection | Pipes                |                      |
