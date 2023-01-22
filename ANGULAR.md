@@ -29,8 +29,9 @@
 # Angular Temel Yapıtaşları
 
 
-| Components   | Directives  |
+|              |             |
 | -----------  | ----------- |
+| Components   | Directives  |
 | Modules      | Data Binding|
 | Metadatas    | Decorators  |
 | Guards       | Services    |
