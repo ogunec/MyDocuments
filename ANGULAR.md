@@ -25,3 +25,9 @@
 * __app.component.html:__ Uygulamada kullanılan ana componentin html dosyası.
 * __app.component.ts:__ Ana componentin kodlama dosyası.
 * __app.module.ts:__ Uygulamanın ana/root modülü.
+
+# Angular Temel Yapıtaşları
+| * Components           | * Data Binding         | * Templates            |
+| * Directives           | * Decorators           | * Metadatas            |
+| * Modules              | * Services             | * Guards               |
+| * Dependency Injection | * Pipes                |                        |
