@@ -219,11 +219,13 @@ HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde
     <td>10</td>
   </tr>
 </table>
-`<caption>` etiketi bir tablo başlığını tanımlar ve `<table` etiketinden hemen sonra eklenmelidir.    
-`<colgroup>` etiketi biçimlendirme için bir tabloda bir veya daha fazla sütun grubunu belirtir.  
-`<col>` bir `<colgroup>` öğesi içindeki her sütun için sütun özelliklerini belirtir.  
-`<thead>` başlık içeriğini bir tabloda gruplandırır.  
-`<tbody>` gövde içeriğini bir tabloda gruplandırır.  
+	
+
+`<caption>` - etiketi bir tablo başlığını tanımlar ve `<table` etiketinden hemen sonra eklenmelidir.    
+`<colgroup>` - etiketi biçimlendirme için bir tabloda bir veya daha fazla sütun grubunu belirtir.  
+`<col>` - bir `<colgroup>` öğesi içindeki her sütun için sütun özelliklerini belirtir.  
+`<thead>` - başlık içeriğini bir tabloda gruplandırır.  
+`<tbody>` - gövde içeriğini bir tabloda gruplandırır.  
 # HTML Listeleri
 HTML listeleri, web geliştiricilerinin bir dizi ilgili öğeyi listelerde gruplandırmasına olanak tanır.  
 
