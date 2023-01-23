@@ -259,4 +259,37 @@ HTML `<head>` öğesi, şu öğeler için bir kapsayıcıdır: `<title>`, `<styl
 * `<style>`, öğesi, tek bir HTML sayfası için stil bilgilerini tanımlamak için kullanılır.   
 * `<link>`, öğesi, geçerli belge ile harici bir kaynak arasındaki ilişkiyi tanımlar. .Çoğunlukla harici stil sayfalarına bağlantı vermek için kullanılır.  
 * `<meta>`, öğesi genellikle karakter kümesini, sayfa açıklamasını, anahtar sözcükleri, belgenin yazarını ve görüntü alanı ayarlarını belirtmek için kullanılır.  
-* 
+* `<script>``, öğesi, istemci tarafı JavaScript'leri tanımlamak için kullanılır.  
+* `<base>`, öğesi, bir sayfadaki tüm bağlantılar için bir varsayılan URL ve bir varsayılan hedef belirtir.  
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Meaningful Page Title</title>
+  <base href="https://www.w3schools.com/" target="_blank">
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <link rel="stylesheet" href="mystyle.css">
+  <style>
+  	body {background-color: powderblue;}
+  	h1 {color: red;}
+  	p {color: blue;}
+  </style>
+  <script>
+	function myFunction() {
+  	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	}
+  </script>
+</head>
+<body>
+  <h1>My Web Page</h1>
+  <p id="demo">A Paragraph</p>
+  <button type="button" onclick="myFunction()">Try it</button>
+  <p>The content of the body element is displayed in the browser window.</p>
+  <p>The content of the title element is displayed in the browser tab, in favorites and in search-engine results.</p>
+
+</body>
+</html>  
+```
