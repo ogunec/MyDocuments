@@ -288,3 +288,8 @@ HTML `<head>` öğesi, şu öğeler için bir kapsayıcıdır: `<title>`, `<styl
   </body>
 </html>  
 ```
+## Görünümü Ayarlama
+Görüntü alanı, kullanıcının bir web sayfasının görünür alanıdır. Cihaza göre değişir - cep telefonunda bilgisayar ekranından daha küçük olacaktır.  
+Aşağıdaki <meta> öğesini tüm web sayfalarınıza eklemelisiniz.  
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
+Bu, tarayıcıya sayfanın boyutlarını ve ölçeklemesini nasıl kontrol edeceğine ilişkin talimatlar verir.  
