@@ -251,3 +251,12 @@ Açıklama listesi, her terimin açıklamasını içeren bir terimler listesidir
   <dd>- white cold drink</dd>
 </dl>
 ```
+# HTML Head Elementi
+`<head>` öğesi, meta veriler için bir etikettir ve `<html>` etiketi ile `<body>` etiketi arasına yerleştirilir.  
+Meta veriler genellikle belge başlığını, karakter kümesini, stilleri, komut dosyalarını ve diğer meta bilgileri tanımlar.  
+HTML `<head>` öğesi, şu öğeler için bir kapsayıcıdır: `<title>`, `<style>`, `<meta>`, `<link>`, `<script>` ve `<base>`.  
+* `<title>`, öğesi, belgenin başlığını tanımlar. Başlık salt metin olmalıdır ve tarayıcının başlık çubuğunda veya sayfanın sekmesinde gösterilir.    
+* `<style>`, öğesi, tek bir HTML sayfası için stil bilgilerini tanımlamak için kullanılır.   
+* `<link>`, öğesi, geçerli belge ile harici bir kaynak arasındaki ilişkiyi tanımlar. .Çoğunlukla harici stil sayfalarına bağlantı vermek için kullanılır.  
+* `<meta>`, öğesi genellikle karakter kümesini, sayfa açıklamasını, anahtar sözcükleri, belgenin yazarını ve görüntü alanı ayarlarını belirtmek için kullanılır.  
+* 
