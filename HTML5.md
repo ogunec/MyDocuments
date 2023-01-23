@@ -264,32 +264,27 @@ HTML `<head>` öğesi, şu öğeler için bir kapsayıcıdır: `<title>`, `<styl
 ```
 <!DOCTYPE html>
 <html>
-<head>
-  <title>A Meaningful Page Title</title>
-  <base href="https://www.w3schools.com/" target="_blank">
-  <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
-  <link rel="stylesheet" href="mystyle.css">
-  <style>
+  <head>
+    <title>A Meaningful Page Title</title>
+    <base href="https://www.w3schools.com/" target="_blank">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
   	body {background-color: powderblue;}
   	h1 {color: red;}
   	p {color: blue;}
-  </style>
-  <script>
+    </style>
+    <script>
 	function myFunction() {
   	document.getElementById("demo").innerHTML = "Hello JavaScript!";
 	}
-  </script>
-</head>
-<body>
-  <h1>My Web Page</h1>
-  <p id="demo">A Paragraph</p>
-  <button type="button" onclick="myFunction()">Try it</button>
-  <p>The content of the body element is displayed in the browser window.</p>
-  <p>The content of the title element is displayed in the browser tab, in favorites and in search-engine results.</p>
+    </script>
+  </head>
+  <body>
 
-</body>
+  </body>
 </html>  
 ```
