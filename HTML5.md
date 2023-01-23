@@ -241,6 +241,19 @@ Sıralı bir liste `<ol>` etiketi ile başlar. Her liste öğesi `<li>` etiketi 
   <li>Milk</li>
 </ol>  
 ```
+### Sıralı Liste Type Özelliği
+* type="1" Liste öğeleri sayılarla numaralandırılacaktır (varsayılan)  
+* type="A" Liste öğeleri büyük harflerle numaralandırılacaktır.  
+* type="a" Liste öğeleri küçük harflerle numaralandırılacaktır.  
+* type="I" Liste öğeleri büyük roma rakamlarıyla numaralandırılacaktır.  
+* type="i" Liste öğeleri küçük roma rakamlarıyla numaralandırılacaktır.  
+```
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+```
 ## HTML Açıklama Listesi
 Açıklama listesi, her terimin açıklamasını içeren bir terimler listesidir. `<dl>` etiketi açıklama listesini tanımlar, `<dt>` etiketi tanımlanacak terimi belirtir ve `<dd>` etiketi her terimi açıklar.  
 ```
