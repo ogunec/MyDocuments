@@ -218,8 +218,7 @@ HTML tabloları, web geliştiricilerinin verileri satırlar ve sütunlar halinde
     <td>14</td>
     <td>10</td>
   </tr>
-</table>  
-```
+</table>
 `<caption>` etiketi bir tablo başlığını tanımlar ve `<table` etiketinden hemen sonra eklenmelidir.    
 `<colgroup>` etiketi biçimlendirme için bir tabloda bir veya daha fazla sütun grubunu belirtir.  
 `<col>` bir `<colgroup>` öğesi içindeki her sütun için sütun özelliklerini belirtir.  
