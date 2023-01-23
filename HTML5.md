@@ -232,6 +232,18 @@ Sırasız bir liste `<ul>` etiketi ile başlar. Her liste öğesi `<li>` etiketi
   <li>Milk</li>
 </ul>  
 ```
+### Liste Öğesi İşaretleyicisini Seçin
+* disc - Liste öğesi işaretini madde işaretine ayarlar. (varsayılan)  
+* circle - Liste öğesi işaretçisini bir daireye ayarlar.  
+* square - Liste öğesi işaretçisini bir kareye ayarlar.  
+* none - Liste öğeleri işaretlenmeyecek.
+```
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
 ## Sıralı HTML Listesi
 Sıralı bir liste `<ol>` etiketi ile başlar. Her liste öğesi `<li>` etiketi ile başlar.  
 ```
