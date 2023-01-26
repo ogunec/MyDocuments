@@ -1,2 +1,2 @@
 # SQL SELECT
-==SELECT== ifadesi, bir veritabanından veri seçmek için kullanılır.
+<mark>SELECT</mark> ifadesi, bir veritabanından veri seçmek için kullanılır.
