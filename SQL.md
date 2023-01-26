@@ -26,3 +26,30 @@ WHERE Country='Mexico';
 | BETWEEN    | Belirli bir aralık arasında |
 | LIKE       | Belirli bir paterni arama |
 | IN         | Bir sütun için birden fazla olası değer belirtme |
+
+# SQL AND, OR ve NOT
+WHERE ifadesi AND, OR ve NOT işleçleriyle birleştirilebilir.  
+* AND operatörü, AND ile ayrılan tüm koşullar DOĞRU ise bir kayıt görüntüler.
+* OR ile ayrılan koşullardan herhangi biri DOĞRU ise OR operatörü bir kayıt görüntüler.
+* NOT operatörü, koşul(lar) DOĞRU DEĞİL ise bir kayıt görüntüler.  
+```
+SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+
+SELECT * FROM Customers
+WHERE City='Berlin' OR City='München';
+
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
+```
+## AND, OR ve NOT'u Birlikte Kullanma
+Aşağıdaki SQL ifadesi, "Customers" tablosundan ülkesi Almanya şehri Berlin veya Münih olanları seçer.  
+```
+SELECT * FROM Customers
+WHERE Country='Germany' AND (City='Berlin' OR City='München');
+```
+Aşağıdaki SQL ifadesi, Customers tablosundan ülkesi Almanya ve USA olmayan tüm alanları seçer.  
+```
+SELECT * FROM Customers
+WHERE NOT Country='Germany' AND NOT Country='USA';
+```
