@@ -15,7 +15,14 @@ SELECT * FROM Customers
 WHERE Country='Mexico';
 ```
 ## WHERE Operatörleri
-| Operatör   | Tanımı     |
-|------------|------------|
-| =          | Eşittir    |
-
+| Operatör   | Tanımı       |
+|------------|--------------|
+| =          | Eşittir      |
+| >          | Büyüktür     |
+| <          | Küçüktür     |
+| >=         | Büyük eşittir|
+| <=         | Küçük eşittir|
+| !=         | Eşit değil   |
+| BETWEEN    | Arasında     |
+| LIKE       | Desen ara    |
+| IN         | Bir sütun için birden fazla olası değer belirtme |
