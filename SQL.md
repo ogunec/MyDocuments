@@ -23,6 +23,6 @@ WHERE Country='Mexico';
 | >=         | Büyük eşittir|
 | <=         | Küçük eşittir|
 | !=         | Eşit değil   |
-| BETWEEN    | Arasında     |
-| LIKE       | Desen ara    |
+| BETWEEN    | Belirli bir aralık arasında |
+| LIKE       | Belirli bir paterni arama |
 | IN         | Bir sütun için birden fazla olası değer belirtme |
