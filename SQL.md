@@ -1,2 +1,2 @@
 # SQL SELECT
-<mark style="color:yellow">SELECT</mark> ifadesi, bir veritabanından veri seçmek için kullanılır.
+<p style="background-color:yellow">SELECT</p> ifadesi, bir veritabanından veri seçmek için kullanılır.
