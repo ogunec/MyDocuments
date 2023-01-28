@@ -156,6 +156,8 @@ FROM OrderDetails;
 * LIKE operatörü, bir sütunda belirli bir kalıbı aramak için bir WHERE ifadesiyle kullanılır.
 * LIKE operatörüyle birlikte sıklıkla kullanılan iki sembol vardır. Bunlar "%" ve "_" sembolleri.  
 
+## SQL Wildcards
+
 | LIKE Operatörü | Tanımı         |
 |----------------|----------------|
 | WHERE CustomerName LIKE 'a%' | "a" ile başlayan tüm değerleri bulur |
@@ -165,6 +167,9 @@ FROM OrderDetails;
 | WHERE CustomerName LIKE 'a_% | "a" ile başlayan ve en az 2 karakter uzunluğunda olan tüm değerleri bulur |
 | WHERE CustomerName LIKE 'a__%' | "a" ile başlayan ve en az 3 karakter uzunluğunda olan tüm değerleri bulur |
 | WHERE ContactName LIKE 'a%o' | "a" ile başlayan ve "o" ile biten tüm değerleri bulur |
+| WHERE ContactName LIKE '[bsp]%' | "b", "s" veya "p" ile başlayan tüm ifadeleri bulur |
+| WHERE ContactName LIKE '[a-c]%' | "a", "b" veya "c" ile başlayan tüm ifadeleri bulur. |
+| WHERE ContactName LIKE '[!bsp]%' | "b", "s" veya "p" ile başlamayan tüm ifadeleri bulur |
 ```
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
@@ -174,4 +179,46 @@ WHERE CustomerName LIKE '%a';
 
 SELECT * FROM Customers
 WHERE CustomerName LIKE '%or%';
+```
+# SQL IN
+* IN operatörü, bir WHERE ifadesinde birden çok değer belirtmenize izin verir.
+* IN operatörü, birden çok OR koşulu için bir kısayoldur.
+```
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
+
+SELECT * FROM Customers
+WHERE Country NOT IN ('Germany', 'France', 'UK');
+
+SELECT * FROM Customers
+WHERE Country IN (SELECT Country FROM Suppliers);
+```
+# SQL BETWEEN
+* BETWEEN operatörü, belirli bir aralıktaki değerleri seçer. Değerler sayı, metin veya tarih olabilir.
+* BETWEEN operatörü kapsayıcıdır: başlangıç ​​ve bitiş değerleri dahildir.
+```
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
+SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID NOT IN (1,2,3);
+```
+# SQL Aliases
+* SQL takma adları, bir tabloya veya tablodaki bir sütuna geçici bir ad vermek için kullanılır.
+* Takma ad yalnızca bu sorgunun süresi boyunca mevcuttur.
+* AS anahtar sözcüğü ile bir takma ad oluşturulur.
+```
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
+
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
 ```
