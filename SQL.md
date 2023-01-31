@@ -223,7 +223,7 @@ FROM Customers AS c, Orders AS o
 WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
 ```
 # SQL Joins
-* JOIN ifadesi, aralarındaki ilgili sütunu temel alarak iki veya daha fazla tablodaki satırları birleştirmek için kullanılır.
+* JOIN ifadesi, aralarındaki ilgili sütunu temel alarak iki veya daha fazla tablodaki satırları birleştirmek için kullanılır.  
 Customers ve Orders adında 2 tablo mevcut. Bu 2 tablonun eşleşen değeri CustomerID. OrderID, CustomerName ve OrderDate verilerini aynı tabloda çekmek için Inner Join kullanırız. 
 ```
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
