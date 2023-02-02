@@ -1,4 +1,4 @@
-# SQL SELECT2
+# SQL SELECT
 **SELECT** ifadesi, bir veritabanından veri seçmek için kullanılır.  
 
 `SELECT * FROM Customers;` => Customers isimli tabloya ait bütün sütunları getiririz.  
